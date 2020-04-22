@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>   
+    <ion-title>
+      Table Of Contents
+    </ion-title>    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list inset="true">    
+    <ion-item>
+     <a routerLink="/tabs/tab3" routerLinkActive="active">Chapter 1: Humble Beginnings</a>
+    </ion-item> 
+    <ion-item>
+      <a routerLink="/tabs/tab4" routerLinkActive="active">Chapter 2: Battle At Home </a>
+     </ion-item> 
+    <ion-item>
+      <a routerLink="/tabs/tab5" routerLinkActive="active">Chapter 3: Struggle Within</a>
+    </ion-item>
+    <ion-item>
+      <a routerLink="/tabs/tab6" routerLinkActive="active">Chapter 4: Hope</a>
+    </ion-item>
+    <ion-item>
+      <a routerLink="/tabs/tab7" routerLinkActive="active">Chapter 5: Road Less Traveled</a>
+    </ion-item>
+    <ion-item>
+      <a routerLink="/tabs/tab8">Chapter 6: Current Situation</a>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+
+<ion-item>
+  <ion-button slot="end"  size="small" fill="clear" type="submit" href="/tabs/tab3">Next Page</ion-button>
+  <ion-button slot="start" size="small" fill="clear" type="submit" href="/tabs/tab1">Previous Page</ion-button>
+</ion-item>
