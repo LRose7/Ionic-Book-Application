@@ -16,6 +16,8 @@
   <p class="pagenumber">Page 3</p>
 </ion-content>
 <ion-item>
-  <ion-button slot="start" size="small" type="submit" fill="clear" href="/tabs/tab4">Previous Page</ion-button>
-  <ion-button slot="end" size="small" type="submit" fill="clear" href="/tabs/tab6">Next Page</ion-button>
+  <a class="page-links" routerLink="/tabs/tab6" routerLinkActive="active" slot="end">Next Page</a>
+  <a class="page-links" routerLink="/tabs/tab4" routerLinkActive="active" slot="start">Previous Page</a>
+  <!-- <ion-button slot="start" size="small" type="submit" fill="clear" href="/tabs/tab4">Previous Page</ion-button>
+  <ion-button slot="end" size="small" type="submit" fill="clear" href="/tabs/tab6">Next Page</ion-button> -->
 </ion-item>
