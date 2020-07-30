@@ -32,6 +32,7 @@ ion-header ion-title {
     color: #902cb8;
 }
 
+// Cover Page
 .booktitle {
     color: plum;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -47,8 +48,26 @@ ion-header ion-title {
 }
 
 .welcome-card {
-   margin-top: 120px;  
+   width: 500px;
+   height: auto;
+}
 
+.cover-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+// Pictures in Chapters
+
+.chapter-images {
+    display: flex;
+    justify-content: center;
+}
+
+.code-card {
+    width: 500px;
+    height: auto;
 }
 
 .responsive {
